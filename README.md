@@ -1,8 +1,8 @@
 HEAD
 
-# Netflix-Clone
+# Movie Munch (a Netflix like paltform)
 
-Netflix CLone
+Movie Munch
 
 # React + Vite
 
