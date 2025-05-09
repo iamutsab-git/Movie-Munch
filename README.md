@@ -19,4 +19,4 @@ If you are developing a production application, we recommend using TypeScript wi
 4a946cd (added netflix-clone folder in github)
 
 
-<p><a hrerf="https://iamutsab-git.github.io/Movie-Munch/" >Live Demo</a></p>
+<p><a href="https://iamutsab-git.github.io/Movie-Munch/" >Live Demo</a></p>
