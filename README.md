@@ -18,4 +18,5 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 4a946cd (added netflix-clone folder in github)
 
-For Live Demo (https://iamutsab-git.github.io/Netflix-Clone/)
+
+<p><a hrerf="https://iamutsab-git.github.io/Movie-Munch/" >Live Demo</a></p>
