@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-b from-black/30 to-transparent fixed w-full z-10">
+    <nav className="bg-gradient-to-b from-black/40 to-transparent fixed w-full z-10">
       <ul className="flex items-center justify-between p-4 max-w-7xl mx-auto">
         <li>
           <Link 
             to="/" 
-            className="text-red-600 text-2xl font-bold hover:text-red-400 transition-colors duration-300"
+            className="font-serif text-red-600 text-2xl font-bold hover:text-red-400 transition-colors duration-300"
           >
             Movie Munch🍿
           </Link>
         </li>
         <div className="flex items-center space-x-4">
           <button 
-            className="text-red-600 hover:text-red-400 transition-colors duration-300"
+            className="bg-grey- text-red-600 border rounded-md px-4 py-2 hover:text-red-400 transition-colors duration-300"
           >
             My List
           </button>
