@@ -14,11 +14,11 @@ const Navbar = () => {
           </Link>
         </li>
         <div className="flex items-center space-x-4">
-          <button 
+          <Link to="/my-list" 
             className="bg-grey- text-red-600 border rounded-md px-4 py-2 hover:text-red-400 transition-colors duration-300"
           >
             My List
-          </button>
+          </Link>
           <Link 
             to="/signup"
             className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors duration-300"

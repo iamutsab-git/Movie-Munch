@@ -1,9 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { useFavorites } from '../Context/FavoriteContext';
 
 const MovieCard = ({ movie, movies, title }) => {
   const navigate = useNavigate();
+  const { addToFavorites, removeFromFavorites} = useFavorites();
   const BASE_IMAGE_URL = "https://image.tmdb.org/t/p/w500";
   const BASE_BACKDROP_URL = "https://image.tmdb.org/t/p/w780";
   const FALLBACK_IMAGE =
@@ -72,6 +74,14 @@ const MovieCard = ({ movie, movies, title }) => {
                 <p className="text-gray-300 text-sm line-clamp-2">
                   {movieItem.overview?.slice(0, 80) || "No description available"}...
                 </p>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                 onClick={(e) => { e.stopPropagation(); addToFavorites(movieItem); }}
+                  className="mt-2 px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-700"
+                >
+                  Add to Favorites
+                </motion.button>
               </motion.div>
             </motion.div>
           ))}
