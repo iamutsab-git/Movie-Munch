@@ -2,7 +2,7 @@
 
 A sleek and simple web app for searching movies using the OMDb API. Built with React and deployed via GitHub Pages.
 
-![Movie Munch Screenshot](./screenshot.png) <!-- Optional: Replace or remove -->
+
 
 ## 🔗 Live Demo
 
