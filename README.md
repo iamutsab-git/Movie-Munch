@@ -1,6 +1,6 @@
 # 🎬 Movie Munch
 
-A sleek and simple web app for searching movies using the OMDb API. Built with React and deployed via GitHub Pages.
+A sleek and simple web app for searching movies using the TMDB API. Built with React and deployed via GitHub Pages.
 
 
 
@@ -23,8 +23,8 @@ Check out the live site here:
 ## 🛠️ Tech Stack
 
 - **React.js** (Frontend Framework)
-- **OMDb API** (Movie data)
-- **CSS / Tailwind / Styled Components** (based on your styling choice)
+- **TMDB API** (Movie data)
+- **Tailwind**
 - **gh-pages** (for deployment)
 
 ---
