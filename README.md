@@ -1,22 +1,37 @@
-HEAD
+# 🎬 Movie Munch
 
-# Movie Munch (a Netflix like paltform)
+A sleek and simple web app for searching movies using the OMDb API. Built with React and deployed via GitHub Pages.
 
-Movie Munch
+![Movie Munch Screenshot](./screenshot.png) <!-- Optional: Replace or remove -->
 
-# React + Vite
+## 🔗 Live Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Check out the live site here:  
+👉 [Movie Munch on GitHub Pages](https://iamutsab-git.github.io/Movie-Munch)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search for movies in real-time
+- 🎞️ Display movie posters, titles, and details
+- 📱 Responsive design for all devices
+- 🚀 Fast, lightweight, and easy to use
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-4a946cd (added netflix-clone folder in github)
+---
 
+## 🛠️ Tech Stack
 
-<p><a href="https://iamutsab-git.github.io/Movie-Munch/" >Live Demo</a></p>
+- **React.js** (Frontend Framework)
+- **OMDb API** (Movie data)
+- **CSS / Tailwind / Styled Components** (based on your styling choice)
+- **gh-pages** (for deployment)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/iamutsab-git/Movie-Munch.git
+cd Movie-Munch
